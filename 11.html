@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add button dynamically</title>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        let data= document.getElementById("container");
+        let button= document.createElement("button")
+        button.textContent="Click Me";
+        data.appendChild(button)
+    </script>
+</body>
+</html>
